@@ -53,7 +53,7 @@ namespace ConsoleApp1
                 _speed = i;
                 SpeedChanged?.Invoke(this, i);
                 await System.Threading.Tasks.Task.Delay(100);
-                Console.WriteLine($"Скорость автомобиля: {_speed}");
+                Console.WriteLine($"Скорость приоры: {_speed}");
             }
         }
     }
